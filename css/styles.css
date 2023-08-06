@@ -119,9 +119,11 @@ a{
 }
 
 .hero-image {
+  background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),    url('../images/people-office-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; 
   padding-bottom: 188px;
   padding-top: 188px;
-  background: var(--dark);
   text-align: center;
 }
 
@@ -236,6 +238,24 @@ a{
   background: var(--light);
   padding: 120px 0;
 }
+
+.team-social-icon{
+  display: flex;
+  gap: 24px;
+  margin-top: 8px;
+  justify-content: center;
+}
+
+.icons-wrapper{
+background:#4D5AE5;
+border-radius: 50%;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
 .worker-name {
   color: var(--dark);
   text-align: center;
@@ -359,6 +379,16 @@ a{
   padding-bottom: 120px;
 }
 
+.section-header{
+  color:var(--dark);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
 
 .doing section{
   padding-top: 0;
@@ -422,4 +452,31 @@ img{
   border-radius: 4px;
   padding-top: 24px;
   padding-bottom: 24px;
+
+}
+
+.customers {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.customers svg{
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+}
+
+.customers svg:hover{
+  --color3: var(var--link-active);
+  border: 1px solid var(--link-active);
+  cursor: pointer;
+}
+
+.footer-wrapper{
+  display: flex;
+}
+
+.footter-social-title{
+  color:var(--white);
+  font-weight: 500;
 }
