@@ -254,10 +254,13 @@ a{
 .icons-wrapper{
 background:#4D5AE5;
 border-radius: 50%;
-padding: 10px;
 display: flex;
 justify-content: center;
 align-items: center;
+width: 40px;
+height: 40px;
+fill: var(--light);
+
 }
 
 
@@ -356,6 +359,13 @@ align-items: center;
   column-gap: 24px;
   margin: 0;
   padding: 0;
+}
+
+.projects-list li:hover {
+
+box-shadow: var(--portfolio-shadow);
+cursor: pointer;
+
 }
 .project-name {
   color: var(--dark);
@@ -487,15 +497,28 @@ img{
 }
 
 .footer-social-icons{
-  background:#4D5AE5;
   display: flex;
-  gap: 24px;
-  margin-top: 16px;
-  justify-content: center;
+  gap: 16px;
+
+
 }
 
 .footer-social-icons li {
-  height: 40px;
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+  background:#4D5AE5;
+  width: 40px;
+height: 40px;
+gap: 24px;
+border-radius: 50%;
+align-items: center;
+  
+}
+
+.footer-social-icons :is(:hover, :focus){
+  background-color: var(--success);
+  cursor: pointer;
 }
 
 .footer-social{
@@ -503,7 +526,12 @@ margin-left: 120px;
 }
 
 .footer-social-icons svg:hover{
-  --color1: var(--success);
+
   cursor: pointer;
 
+}
+
+portfolio-section{
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
