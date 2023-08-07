@@ -12,6 +12,11 @@ body {
   --light: #f4f4fd;
   --cornflower: #e7e9fc;
   --button-shadow: rgba(0, 0, 0, 0.15);
+  --portfolio-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  --success: #31d0aa;
+  --light-slate: #8e8f99;
 }
 
 .link {
@@ -467,7 +472,7 @@ img{
 }
 
 .customers svg:hover{
-  --color3: var(var--link-active);
+  --color: var(var--link-active);
   border: 1px solid var(--link-active);
   cursor: pointer;
 }
@@ -476,7 +481,29 @@ img{
   display: flex;
 }
 
-.footter-social-title{
+.footer-social-title{
   color:var(--white);
   font-weight: 500;
+}
+
+.footer-social-icons{
+  background:#4D5AE5;
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.footer-social-icons li {
+  height: 40px;
+}
+
+.footer-social{
+margin-left: 120px;
+}
+
+.footer-social-icons svg:hover{
+  --color1: var(--success);
+  cursor: pointer;
+
 }
