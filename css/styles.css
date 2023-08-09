@@ -532,7 +532,7 @@ margin-left: 120px;
 }
 
 .customer-icon{ 
-  fill:#8E8F99;
+  fill:var(--color-border-dark);
   width: 168px;
   height: 88px;
   flex-shrink: 0;
@@ -543,8 +543,8 @@ margin-left: 120px;
 }
 
 .customer-icon:hover {
-border-color: var(var--link-active);
-fill: var(var--link-active);
+border-color: var(--link-active);
+fill: var(--link-active);
 cursor: pointer;
 }
 
