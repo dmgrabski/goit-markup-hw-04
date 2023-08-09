@@ -536,7 +536,7 @@ margin-left: 120px;
   width: 168px;
   height: 88px;
   flex-shrink: 0;
-  border: 1px solid #8E8F99;
+  border: 1px solid #f2f3ff;
   border-radius: 4px;
   padding:16px 32px;
 
@@ -547,6 +547,7 @@ border-color: var(--link-active);
 fill: var(--link-active);
 cursor: pointer;
 }
+
 
 
 .social-icon {
