@@ -363,7 +363,6 @@ fill: var(--light);
   column-gap: 24px;
   margin: 0;
   padding: 0;
-  margin-bottom: 120px;
 }
 
 .projects-list li:hover {
@@ -562,6 +561,7 @@ margin-left: 120px;
 .customer-icon:hover,
 .customer-icon:focus {
  border-color: var(--link-active); fill: var(--link-active);
+ fill: var(--link-active);
 }
 
 
