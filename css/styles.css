@@ -532,11 +532,11 @@ margin-left: 120px;
 }
 
 .customer-icon{ 
-  fill:var(--color-border-dark);
+  fill: #8E8F99;
   width: 168px;
   height: 88px;
   flex-shrink: 0;
-  border: 1px solid #f2f3ff;
+  border: 1px solid #8E8F99;
   border-radius: 4px;
   padding:16px 32px;
 
@@ -550,6 +550,7 @@ cursor: pointer;
 
 
 
+
 .social-icon {
   display: flex;
   width: 40px;
@@ -558,6 +559,7 @@ cursor: pointer;
   align-items: center;
   justify-content: center;
   background-color: var(--primary-brand);
+  fill: white;
 }
 
 .social-icon:hover,
@@ -573,6 +575,7 @@ cursor: pointer;
   align-items: center;
   justify-content: center;
   background-color: var(--primary-brand);
+  fill: white;
 }
 
 .social-icon-footer:hover,
